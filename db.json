@@ -1,38 +1,38 @@
 {
- "checkin": [
-  {
-    "id": 1,
-    "idreserva": 101,
-    "nomeHospede": "José Silva",
-    "tipoQuarto": "Luxo", // Corrigido: tipoQuarto (camelCase)
-    "limitePessoas": 3,
-    "dataCheckIn": "2025-11-22", // Corrigido: dataCheckIn (camelCase)
-    "horaCheckIn": "14:30", // Corrigido: horaCheckIn (camelCase)
-    "status": "aguardando" // Corrigido: status (camelCase)
-  }
- ],
-"checkout": [
-  {
-    "id": 1,
-    "idreserva": 101,
-    "nomeHospede": "José Silva",
-    "tipoQuarto": "Luxo", // Corrigido
-    "limitePessoas": 3,
-    "dataCheckIn": "2025-11-22", // Corrigido
-    "horaCheckIn": "14:30", // Corrigido
-    "status": "aguardando" // Corrigido
-  }
- ],
- "pedido": [
-  {
-    "id": 1,
-    "numeroQuarto": 101, // CORRIGIDO: Adicionado ":" e um valor (presumi 101) e padronizado o nome
-    "hospede":"jao",
-    "item": "coca lata",
-    "valorUnitario": 5.00, // Melhoria: usar número (ponto) em vez de string (vírgula)
-    "servico": "lavanderia",
-    "valorServico": 30.00, // Melhoria: nome da chave mais específico e valor numérico
-    "valorTotal": 35.00 // Corrigido: espaço removido e valor numérico
-  }
- ]
+  "checkin": [
+    {
+      "id": 1,
+      "idreserva": 101,
+      "nomeHospede": "José Silva",
+      "tipoquarto": "Luxo",
+      "limitePessoas": 3,
+      "DataCheckIn": "2025-11-22",
+      "HoraCheckIn": "14:30",
+      "Status": "aguardando"
+    }
+  ],
+  "checkout": [
+    {
+      "id": 1,
+      "idreserva": 101,
+      "nomeHospede": "José Silva",
+      "tipoquarto": "Luxo",
+      "limitePessoas": 3,
+      "DataCheckIn": "2025-11-22",
+      "HoraCheckIn": "14:30",
+      "Status": "aguardando"
+    }
+  ],
+  "pedido": [
+    {
+      "id": 1,
+      "numeroQuarto": "101",
+      "hospede": "jao",
+      "item": "coca lata",
+      "valorUnitario": "5,00",
+      "servico": "lavanderia",
+      "valor": "30,00",
+      "valorTotal": "35,00"
+    }
+  ]
 }
