@@ -1,38 +1,61 @@
 {
-  "checkin": [
+  "funcionario": [
     {
       "id": 1,
-      "idreserva": 101,
-      "nomeHospede": "José Silva",
-      "tipoquarto": "Luxo",
-      "limitePessoas": 3,
-      "DataCheckIn": "2025-11-22",
-      "HoraCheckIn": "14:30",
-      "Status": "aguardando"
+      "nome": "Ana Costa",
+      "cpf": "345.678.901-23",
+      "dataNascimento": "1995-07-28",
+      "telefone": "(31) 97654-3210",
+      "email": "ana.costa@hotel.com",
+      "cargo": "Cozinheira",
+      "cep": "30130-171",
+      "logradouro": "Rua Tomé de Souza",
+      "numero": 880,
+      "complemento": null,
+      "bairro": "Savassi",
+      "cidade": "Belo Horizonte",
+      "uf": "MG"
     }
   ],
-  "checkout": [
+
+  "hospedes": [
     {
       "id": 1,
-      "idreserva": 101,
-      "nomeHospede": "José Silva",
-      "tipoquarto": "Luxo",
-      "limitePessoas": 3,
-      "DataCheckIn": "2025-11-22",
-      "HoraCheckIn": "14:30",
-      "Status": "aguardando"
+      "nome": "Ana Costa",
+      "cpf": "345.678.901-23",
+      "dataNascimento": "1995-07-28",
+      "telefone": "(31) 97654-3210",
+      "email": "ana.costa@hotel.com",
+      "cep": "30130-171",
+      "logradouro": "Rua Tomé de Souza",
+      "numero": 880,
+      "complemento": null,
+      "bairro": "Savassi",
+      "cidade": "Belo Horizonte",
+      "uf": "MG"
     }
   ],
-  "pedido": [
+
+  "quartos": [
     {
       "id": 1,
-      "numeroQuarto": "101",
-      "hospede": "jao",
-      "item": "coca lata",
-      "valorUnitario": "5,00",
-      "servico": "lavanderia",
-      "valor": "30,00",
-      "valorTotal": "35,00"
+      "numero": 101,
+      "tipo": "Luxo",
+      "limitePessoas": 3,
+      "valor": 350.0
     }
+  ],
+ "reservas": [
+  {
+    "id": 501,
+    "numeroQuarto": 201,
+    "nomeHospede": "Carlos Ferreira",
+    "cpf": "987.654.321-09",
+    "telefone": "(81) 91234-5678",
+    "tipoQuarto": "Luxo Casal",
+    "dataCheckIn": "2025-12-10",
+    "dataCheckOut": "2025-12-15",
+    "valor": 1750.00
+  }
   ]
 }
